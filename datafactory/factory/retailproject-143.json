@@ -1,0 +1,15 @@
+{
+	"name": "retailproject-143",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d8d8d378-0129-43f9-a04e-0a2227407561",
+		"tenantId": "1c606f7a-daa4-4e3d-a125-50d784ac17bc"
+	}
+}

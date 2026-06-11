@@ -1,0 +1,31 @@
+{
+	"name": "AzureSqlTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "store_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "store_name",
+				"type": "varchar"
+			},
+			{
+				"name": "location",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "stores"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
